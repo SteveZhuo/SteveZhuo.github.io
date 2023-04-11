@@ -77,6 +77,40 @@
     <table><tbody>
 
       <tr>
+        <td class="pub_left" onmouseout="fis_start()" onmouseover="fis_stop()">
+          <div class="one">
+            <div class="two" id='fis'>
+              <img src='images/fis_0.png' class="pub_img">
+            </div>
+            <img src='images/fis_1.png' class="pub_img">
+          </div>
+          <script type="text/javascript">
+            function fis_start() {
+              document.getElementById('fis').style.opacity = "1";
+            }
+
+            function fis_stop() {
+              document.getElementById('fis').style.opacity = "0";
+            }
+            fis_start()
+          </script>
+        </td>
+        <td class="pub_right">
+          <a href="">
+            <papertitle>FIS-ONE: Floor Identification System with One Label for Crowdsourced RF Signals</papertitle>
+          </a>
+          <br>
+          <strong>Weipeng Zhuo</strong>, Ka Ho Chiu, Jierun Chen, Ziqi Zhao, S.-H. Gary Chan, Sangtae Ha, Chul-Ho Lee
+          <br>
+          <em>IEEE International Conference on Distributed Computing Systems (ICDCS), 2023</em>
+          <br>          
+          <p>paper and code coming soon</p>          
+          <p>We design a floor identification system for crowdsourced RF signals in a building using only one labeled data sample 
+          from the bottom floor.</p>
+        </td>
+      </tr>
+
+      <tr>
         <td class="pub_left">
           <div class="one">
             <img src='images/PConv.png' class="pub_img">
@@ -93,7 +127,6 @@
           <br>
           <a href="https://arxiv.org/abs/2303.03667">paper</a> /
           <a href="https://github.com/JierunChen/FasterNet">code</a>
-          <!-- <p>paper and code coming soon</p> -->
           <br>
           <p>We propose a simple yet fast and effective partial convolution (PConv), 
             as well as a latency-efficient family of architectures called FasterNet.</p>
@@ -125,7 +158,7 @@
             <papertitle>Semi-supervised Learning with Network Embedding on Ambient RF Signals for Geofencing Services</papertitle>
           </a>
           <br>
-          <strong>Weipeng Zhuo</strong>, Ka Ho Chiu, Jierun Chen, Jiajie Tan, Edmund Sumpena, Sangtae Ha, S.-H. Gary Chan, Chul-Ho Lee,
+          <strong>Weipeng Zhuo</strong>, Ka Ho Chiu, Jierun Chen, Jiajie Tan, Edmund Sumpena, S.-H. Gary Chan, Sangtae Ha, Chul-Ho Lee,
           <br>
           <em>IEEE International Conference on Data Engineering (ICDE), 2023</em>
           <br>
@@ -326,7 +359,7 @@
           <div id="clustrmaps-widget" style="width:10%">
             <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=n4oCPWnTsKMURBryd2FpxnLGLrc2pOsn8o1pbaYqI0E"></script>
           </div>
-          &copy; Weipeng Zhuo | Last updated: Mar. 2023.              
+          &copy; Weipeng Zhuo | Last updated: April 2023.              
         </center>
         <center>
           <a href="https://github.com/jonbarron/jonbarron_website">Website template.</a>
