@@ -178,14 +178,14 @@ td.profile_left {
   /*padding:2.5%;*/
   padding: 0%;
   padding-top: 6%;
-  width:27.5%;
-  max-width:27.5%;
+  width:25%;
+  max-width:25%;
   vertical-align:middle;
 }
 
 td.profile_right {
   padding:2.5%;
-  width:67.5%;
+  width:71%;
   vertical-align:middle;
 }
 
