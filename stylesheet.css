@@ -184,7 +184,7 @@ td.profile_left {
 }
 
 td.profile_right {
-  padding:2.5%;
+  padding-left:2.5%;
   width:71%;
   vertical-align:middle;
 }
