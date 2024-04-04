@@ -41,7 +41,7 @@
             <name>Steve Weipeng Zhuo (卓伟鹏)</name>
           </p>          
           <p>
-            I am an assistant professor in the <a href="https://fst.uic.edu.cn/ai_en/index.htm"> Department of Computer Science </a> at <a href="https://www.uic.edu.cn/"> BNU-HKBU United Internation College </a>. Previously, I obtained my Ph.D. degreee in Computer Science and Engineering from 
+            I am an assistant professor in the <a href="https://fst.uic.edu.cn/ai_en/index.htm"> Department of Computer Science </a> at <a href="https://www.uic.edu.cn/"> BNU-HKBU United Internation College </a>. Previously, I obtained my Ph.D. degree in Computer Science and Engineering from 
             <a href="https://hkust.edu.hk/">The Hong Kong University of Science and Technology (HKUST)</a>, under the supervision of <a href="https://www.cse.ust.hk/~gchan/">Prof. Shueng-Han Gary Chan</a>. Prior to that, I was an early founder in Pipe of Insight, a startup focused on online education using mobile devices, which raised angel round funding and series A financing. I obtained my BSc degree (double majored in Computer Science and Applied Math) and Master of Philosophy (MPhil) degree from HKUST. During my MPhil study, I was a visiting scholar in the <a href="https://ece.princeton.edu/">Department of Electrical Engineering</a> at <a href="https://www.princeton.edu/">Princeton University</a>. 
           </p>
           <p>My research focuses on the design and application of graph neural networks (GNNs) on the internet of things (IoT) devices, including
@@ -81,6 +81,40 @@
     
     <table><tbody>
 
+      <tr>
+        <td class="pub_left" onmouseout="catgnn_start()" onmouseover="catgnn_stop()">
+          <div class="one">
+            <div class="two" id='catgnn'>
+              <img src='images/catgnn_0.png' class="pub_img">
+            </div>
+            <img src='images/catgnn_1.png' class="pub_img">
+          </div>
+          <script type="text/javascript">
+            function catgnn_start() {
+              document.getElementById('catgnn').style.opacity = "1";
+            }
+
+            function catgnn_stop() {
+              document.getElementById('catgnn').style.opacity = "0";
+            }
+            fis_start()
+          </script>
+        </td>
+        <td class="pub_right">
+          <a href="https://arxiv.org/abs/2404.02300">
+            <papertitle>CATGNN: Cost-Efficient and Scalable Distributed Training for Graph Neural Networks</papertitle>
+          </a>
+          <br>
+          Xin Huang, <strong>Weipeng Zhuo</strong>, Minh Phu Vuong, Shiju Li, Jongryool Kim, Bradley Rees, Chul-Ho Lee
+          <br>
+          <em>arXiv Preprint</em>
+          <br>
+          <a href="https://arxiv.org/abs/2404.02300">paper</a>
+          <br>        
+          <p>We design a distributed GNN training framework that leverages high-degree neighbors 
+          of each node to partition the graph efficiently.</p>
+        </td>
+      </tr>
 
       <tr>
         <td class="pub_left" onmouseout="msd_start()" onmouseover="msd_stop()">
@@ -404,6 +438,9 @@
           <heading>Academic Services</heading>
           <p>
             <strong>Reviewer:</strong> INFOCOM 2018 - 2024, KDD 2023, ACM MM 2023, SDM 2023, MobiHoc 2022 - 2023, MobiCom 2022, ICDM 2022 - 2023
+          </p>
+          <p>
+            <strong>TPC Member:</strong> IEEE MASS 2024
           </p>
         </td>
       </tr>
