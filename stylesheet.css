@@ -169,8 +169,8 @@ td.pub_left {
 }
 
 td.pub_right {
-  padding:min(20px,2%);
-  width:75%;
+  padding:min(10px,1%);
+  width:100%;
   vertical-align:top;
 }
 
